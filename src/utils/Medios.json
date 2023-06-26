@@ -1,0 +1,22 @@
+{
+    "banner": {
+        "legales":true,
+        "variant":"legales",
+        "h1": ["Medios de pago"],
+        "p": "Conocé todos los medios de pago disponibles para abonar tus cuotas.",
+        "bg":"void-bnr",
+        "bigtext":true
+        
+    },
+
+    "content": [
+        {
+            "h3": "<h3 className=\"primary-txt\">Pago Fácil / Rapipago</h3>", 
+            "p": "<p className=\"grey-txt\">Podés acercarte a cualquier sucursal de Pago Fácil o Rapipago <b>con el código provisto vía mail</b> al momento de la acreditación del préstamo.</p>"
+        },
+        {
+            "h3": "<h3 className=\"primary-txt\">Transferencia bancaria</h3>",
+            "p": "<p className=\"grey-txt\">Podés pagar <b>mediante transferencia bancaria o depósito</b> a la cuenta bancaria CBU N°3120001901000110003240, de titularidad de OK Consumer Finance S.A., CUIT 30-71504498-2. <b>Una vez realizado, el solicitante deberá informar el pago por los medios de contacto habituales.</b></p>"
+        }
+    ]
+}

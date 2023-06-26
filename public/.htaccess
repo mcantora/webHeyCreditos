@@ -1,0 +1,11 @@
+# Force HTTPS:
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://heycreditos.com.ar [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+# Routing fix:
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]

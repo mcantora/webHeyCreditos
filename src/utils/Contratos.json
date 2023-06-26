@@ -1,0 +1,15 @@
+{
+    "banner": {
+        "legales":true,
+        "variant":"legales",
+        "h1": ["Contratos", "de adhesión"],
+        "bg":"void-bnr",
+        "bigtext": true   
+    },
+
+    "content": [
+        {"text": ["Solicitud de crédito - Canal digital"], "href": "/contrato_digital"},
+        {"text": ["Solicitud de crédito - Canal presencial"], "href": "/contrato_presencial"},
+        {"text": ["Términos y Condiciones de uso de la web"], "href": "/terminos_condiciones"}
+    ]
+}

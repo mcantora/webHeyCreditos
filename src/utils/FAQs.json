@@ -1,0 +1,109 @@
+{
+    "banner": {
+        "variant":"default",
+        "h1": ["Preguntas", "frecuentes"],
+        "p": "Para obtener una respuesta inmediata, podés entrar a las siguientes preguntas frecuentes, donde encontrarás información sobre los temas más consultados.",
+        "bg":"faq-bnr",
+        "gradient":"white-gradient"
+    },
+
+    "questions": [  
+        {
+            "id": "1",
+            "title": "¿Cuáles son los requisitos para sacar un préstamo?",
+            "answer-array": [
+                "Los requisitos mínimos son:",
+                "-Tener un trabajo formal en relación de dependencia con un mínimo de 4 meses de antigüedad o ser jubilado/pensionado",
+                "-Poseer una cuenta bancaria propia con CBU",
+                "-Tener un buen historial crediticio."
+            ],
+            "answerHeight": "height4"
+        },
+
+        {
+            "id": "2",
+            "title": "¿Cuánto dinero puedo solicitar y en cuántas cuotas puedo devolverlo?",
+            "answer-array": [
+                "El monto a otorgar va a depender de tu análisis crediticio.",
+                "Monto mínimo: $1.000 – Monto máximo: $750.000.",
+                "Plazo mínimo: 6 meses – Plazo máximo: 24 meses."
+            ],
+            "answerHeight": "height3"
+        },
+
+        {
+            "id": "3",
+            "title": "¿Cuáles son los pasos para el otorgamiento del crédito?",
+            "answer-array": [
+                "Sacar un préstamo en HEY Créditos es muy sencillo. Sólo tenés que completar unos mínimos datos, tener un buen historial crediticio y se te acreditará el préstamo en tu CBU."
+            ],
+            "answerHeight": "height2"
+        },
+
+        {
+            "id": "4",
+            "title": "¿Cuándo y cómo recibo el préstamo?",
+            "answer-array": [
+                "El préstamo se te acreditará en el CBU personal que nos proporcionaste en un plazo máximo de 24 hs. hábiles."  
+            ],
+            "answerHeight": "height1"
+        },
+
+        {
+            "id": "5",
+            "title": "¿Dónde puedo abonar las cuotas?",
+            "answer-array": [
+                "El préstamo lo podés pagar de diferentes formas:",
+                "-Por depósito o transferencia bancaria en las cuentas de OK CONSUMER FINANCE S.A."
+            ],
+            "links": [
+                {
+                    "regular": "-En sucursales ",
+                    "bold":"Pago Fácil",
+                    "href": "https://www.pagofacil.com.ar/#"
+                },
+                {
+                    "regular": "-En sucursales ",
+                    "bold": "Rapipago",
+                    "href": "https://rapipago.com.ar/rapipagoWeb/#buscador-de-sucursales"
+                }
+            ],
+            "answerHeight": "height3"
+        },
+
+        {
+            "id": "6",
+            "title": "¿Qué hago si a la fecha de vencimiento no puedo pagar mi cuota?",
+            "answer-array": [
+                "Comunicate con nosotros para regularizar tu situación y evitar abonar intereses diarios, que se suman al valor original de tu cuota y que, además de incrementarla, afectan tu historial crediticio."
+            ],
+            "answerHeight": "height2"
+        }
+    ],
+
+    "accordion": {
+        "togglers": {
+            "toggle1": { "state": "0" },
+            "toggle2": { "state": "0" },
+            "toggle3": { "state": "0" },
+            "toggle4": { "state": "0" },
+            "toggle5": { "state": "0" },
+            "toggle6": { "state": "0" }
+        },
+        
+        "heights": {
+            "height1": "3rem",
+            "height2": "5rem",
+            "height3": "9rem",
+            "height4": "12rem"
+        }
+    },
+
+    "cta": {
+        "h3": "¿Tenés otra duda?",
+        "btn1": "Contactanos",
+        "btn2": "Preguntas Frecuentes",
+        "to1": "/contacto",
+        "to2": "/faq"
+    }
+}

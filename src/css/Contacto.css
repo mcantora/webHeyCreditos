@@ -1,0 +1,184 @@
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--primary);
+  opacity: 0.5;
+}
+.contact-row {
+  height: auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--grey-text);
+  padding-top: 32px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.contact-form input,
+label,
+.contact-form select,
+.contact-form option,
+.contact-form textarea {
+  -webkit-appearance: none; /* Quitar flechitas en Chrome */
+  -moz-appearance: textfield;
+  outline: none;
+  color: var(--grey-text) !important;
+  background-color: none !important;
+  margin: 0;
+  width: 30rem;
+  height: 3rem;
+  border: 1px solid var(--grey-text);
+  box-sizing: border-box;
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+  resize: none;
+
+  font-family: var(--fonts);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem !important;
+  letter-spacing: 1px;
+}
+
+.container,
+.container * {
+  overflow: visible;
+  width: 476px;
+  z-index: 500;
+}
+
+.contact-form textarea {
+  height: 134px;
+  line-height: 350%;
+}
+
+.contact-form submit {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 26px;
+}
+
+.contact-form span {
+  color: white;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+}
+
+.contact-form button {
+  width: 246px;
+}
+
+.col1-text {
+  font-size: 1.2rem;
+  line-height: 150%;
+  max-width: 27rem;
+  color: var(--grey-text) !important;
+  margin-top: 1.25rem;
+  align-items: center;
+}
+
+.col2-contacto {
+  margin: auto;
+  margin-top: var(--m-top);
+  margin-bottom: var(--m-top);
+  width: auto;
+}
+
+/* SELECT */
+.select-content {
+  background: white;
+  border: 1px solid #939ea4;
+  box-sizing: border-box;
+  font-family: var(--fonts);
+  font-style: normal;
+  font-weight: normal;
+  opacity: 1;
+  display: flex;
+  padding: auto;
+}
+
+.select-content:hover option:hover {
+  background-color: #939ea4;
+}
+/* FILE */
+input[type="file"] {
+  display: none;
+}
+.custom-fileinput {
+  background: #fffefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: 10rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 3rem;
+  margin: 0;
+}
+
+.custom-fileinput:hover {
+  background: var(--grey-text);
+  color: #fffefe !important;
+}
+
+.show-on-submit {
+  display: none;
+}
+
+.hide1,
+.hide2 {
+  display: block;
+}
+
+.contact-spacer {
+  width: 1em;
+  visibility: hidden;
+}
+
+.question-mark { /* Para Botón de Arrepentimiento */
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.question-container .question-tooltip {
+  visibility: hidden;
+  margin-right: 15vw;
+  background-color: var(--primary);
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+
+  position: absolute;
+  z-index: 900;
+  
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.question-container:hover .question-tooltip { 
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 450px) {
+  .col1-contacto,
+  .col2-contacto {
+    width: 90vw;
+  }
+  .contact-form {
+    padding-top: 32px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  .contact-form input,
+  label,
+  .contact-form select,
+  .contact-form option,
+  .contact-form textarea {
+    width: 80vw;
+  }
+}

@@ -1,0 +1,100 @@
+.header-body {
+    position: fixed;
+    z-index: 999;
+    height: var(--header-height);
+    width: 100vw;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 0 0 2rem var(--grey-text);
+}
+.icon-menu { margin:0 8vw 0 8vw; }
+
+#header-logo { margin-left: var(--m-1); }
+#header-logo img {
+    width: 10rem; /* alt: 8rem */
+    height: 6rem; /* alt: 4.5rem */
+}
+
+/* RESPONSIVENESS IN HEADER */
+@media (max-width: 5000px) {
+    #header-r-desktop { display: flex; }
+    #header-r-mobile { display: none; }
+    .header-body button { margin-left: var(--m-header);}
+}
+@media (max-width: 1050px) {
+    #header-logo{ margin-left: 1vw !important; }
+    .cta a{
+        padding: 0.5rem 0.5rem !important;
+        
+    }
+ 
+}
+@media (max-width: 900px) {
+    #header-r-desktop { display: none; }
+    #header-r-mobile { display: flex !important; }
+}
+
+#header-r-desktop { margin-right: 1.2vw; }
+#header-r-desktop li { font-size: 1.2rem; }
+#header-r-desktop li:hover { color: var(--primary); }
+.headerSpan { /* spacers */
+    height: auto;
+    width: var(--m-header);
+}
+
+#header-r-mobile img {
+    height: 3rem;
+    width: auto;
+    margin-right: var(--m-2);
+    cursor: pointer;
+}
+
+#slider {
+    visibility: hidden; /* Esto es para evitar que se vea/corra al cambiar ancho de pantalla */
+    background-color: white;
+    z-index: 900;
+    position: fixed;
+    top: var(--header-height);
+    left: 100vw;
+    width: 110vw;
+    height: auto;
+    box-shadow: inset 0 0 2rem var(--grey-text);
+    margin: 0;
+    padding: 0;
+}
+
+#slider ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slider li {
+    height: 10vh;
+    font-size: 4.5vh;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+#slider button {
+    position: relative;
+    top: -1rem;
+    max-width: 75vw;
+    font-size: 4vh;
+    border-radius: 0.5rem;
+    line-height: 110%;
+    padding: 0.5rem 0;
+}
+
+#slider .high {
+    height: 50vh;
+}
+
+#slider hr {
+    width: 50vw;
+    height: 1px;
+    border-radius: 100%;
+    background-color: var(--primary);
+    opacity: 50%;
+}

@@ -1,0 +1,133 @@
+.footer {
+    position: relative;
+}
+
+.purple-footer {
+    width: 100vw;
+    height: auto;
+    background-color: var(--header-bg);
+}
+
+.pf-margins {
+    margin: 0 var(--m-2);
+}
+
+.copyright {
+    color: var(--grey-text); 
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 1em 0;
+    line-height: 1rem;
+}
+.version{
+    color: var(--grey-text); 
+    font-weight: 500;
+    font-size: 0.9rem; 
+    line-height: 1rem;
+    float: right;
+}
+
+.footer-logotype {
+    margin: auto;
+    width: 8rem;
+    height: 6.4rem;
+}
+
+.social {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.social img, .social span {
+    height: 1.5rem;
+    width: auto;
+    overflow: hidden;
+}
+
+.white-footer {
+    height: auto;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.white-footer * {
+    overflow: hidden;
+}
+
+.purple-footer ul {
+    color: var(--blue-text);
+}
+
+.purple-footer li {
+    line-height: 200%;
+}
+
+#contratos {
+    line-height: 125%;
+    margin: 0.5rem 0;
+}
+
+.hr {
+    height: 2px;
+    border-radius: 1px;
+    min-width: 50%;
+    background-color: rgba(205, 209, 212, 1);
+}
+
+.vertical {
+    width: 2px;
+    border-radius: 1px;
+    min-height: 50%;
+    background-color: rgba(205, 209, 212, 1);
+}
+
+.m-auto { padding: 1px }
+
+@media (max-width: 5000px) {  
+    #pf-mobile { display: none; }
+
+    .bcra {
+        height: 87px;
+        width: 253px;
+        left: 1022px;
+        top: 21px;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .purple-footer { padding: 1rem 0; }
+    #pf-desktop { display: none; }
+    #pf-mobile { 
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .footer-ul li { margin-right: 1.5rem; }
+
+    #more-space { height: 12.5rem; }
+    .bcra {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .bcra {
+        height: 44px;
+        width: 127px;
+        margin-left: 1rem;
+        margin-top: 1.4rem;
+    }
+}
+
+@media (max-width: 400px) {
+.pf-margins { margin: 0 1.5rem; }
+}

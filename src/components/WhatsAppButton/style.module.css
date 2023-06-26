@@ -1,0 +1,32 @@
+/* STATIC */
+#wb {
+  position: fixed;
+  z-index: 900;
+  right: 3rem;
+  padding: 0.75rem;
+  background-color: green; /* #25D366; WhatsApp green */
+  border-radius: 2.5rem;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+  animation: wb 1s ease-in-out 4s forwards;
+}
+
+#wb img {
+  padding-left: 0.25rem;
+  width: 3rem;
+  height: auto;
+}
+
+/* DYNAMIC */
+#wb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 7.5px white;
+}
+@keyframes wb {
+  0% { bottom: -5rem }
+  100% { bottom: 10vh }
+}
+
+@media (max-width: 600px) {
+  #wb { border-radius: 3rem; }
+  #wb img { width: 3.75rem; }
+}

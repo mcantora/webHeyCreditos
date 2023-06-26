@@ -1,0 +1,84 @@
+.iusf-text { 
+    padding: var(--m-1);
+    padding-bottom: 0;
+}
+
+.iusf-text h2 {
+    margin: 1rem auto;
+    text-align: center;
+}
+ 
+.iusf-text a:hover { color: var(--primary); }
+
+.iusf-text p {
+    font-size: 1.2rem;
+    line-height: 150%;
+}
+
+.iusf-box {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px 2px rgba(0,0,0,0.2);
+}
+
+.iusf-box ul { position: relative; }
+
+.ul1 { width: 60%; }
+
+.ul2 { 
+    width: 38%;
+    margin: auto 0;
+}
+
+.slimmer { 
+    width: 70%;
+    margin: auto;
+}
+
+#iusf-li {
+    position: relative;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#iusf-li * { margin-left: 1rem; }
+#iusf-li strong { margin-left: 0; }
+
+#iusf-officials p, #iusf-links p { 
+    color: white;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#iusf-officials strong { font-size: 1.5rem; }
+.normas { margin: 0; }
+
+@media (max-width: 5000px) {
+    .normas {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .normas img { width: 30vw; height: auto }
+}
+
+@media (max-width: 1300px) {
+    .normas img { width: 45vw; }
+}
+
+@media (max-width: 900px) {
+    .normas img { width: 90vw; }
+    .ul1, .ul2 {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .slimmer { width: auto; }
+}
+
+@media (max-width: 500px) {
+    #iusf-li { flex-direction: column; }
+    #iusf-li * {
+        margin: auto;
+        text-align: center;
+    }
+}

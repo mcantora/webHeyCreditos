@@ -1,0 +1,52 @@
+{
+  "formInputs": [
+    { "name": "from_name", "label": "Nombre y Apellido", "variant": "input" },
+    {
+      "name": "from_id",
+      "label": "Numero de documento",
+      "variant": "number",
+      "format": "########",
+      "placeholder": "Ej: 23456789"
+    },
+    {
+      "name": "from_phone",
+      "label": "Numero de teléfono",
+      "variant": "number",
+      "format": "################",
+      "placeholder": "Ej: +549 1155667788"
+    },
+    {
+      "name": "subject",
+      "label": "Motivo de consulta",
+      "variant": "select",
+      "options": [
+        {
+          "value": "MOTIVO",
+          "labelOption": "Motivo de la consulta",
+          "hidden": true
+        },
+        {
+          "value": "PRÉSTAMO",
+          "labelOption": "Quiero solicitar un préstamo"
+        },
+        {
+          "value": "BAJA",
+          "labelOption": "Tengo una deuda"
+        },
+        {
+          "value": "PRÉSTAMO",
+          "labelOption": "Quiero dar de baja mi préstamo"
+        },
+        {
+          "value": "Libre Deuda",
+          "labelOption": "Pedido libre de deuda"
+        },
+        {
+          "value": "OTRO",
+          "labelOption": "Otro"
+        }
+      ]
+    },
+    { "name": "message", "placeholder": "Consulta", "variant": "textarea" }
+  ]
+}

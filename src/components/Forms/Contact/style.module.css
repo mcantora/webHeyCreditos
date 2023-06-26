@@ -1,0 +1,45 @@
+.textarea {
+	width: auto;
+	line-height: 1.25rem;
+	padding: 10px;
+}
+.submit {
+	color: "#fff";
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.submit:hover {
+	color: blueviolet;
+}
+.animtationEnter {
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+.animtationEnterFrom {
+	opacity: 0;
+}
+.animationEnterTo {
+	opacity: 1;
+}
+.animationLeave {
+	transition-property: opacity;
+	transition-duration: 150ms;
+}
+
+.animationLeaveFrom {
+	opacity: 1;
+}
+
+.animationLeaveTo {
+	opacity: 0;
+}
+.BtnEnviar {
+	color: white !important;
+}
+
+.BtnEnviar:hover {
+	color: black !important;
+}

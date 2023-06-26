@@ -1,0 +1,10 @@
+{
+    "banner": {
+        "legales":true,
+        "variant":"legales",
+        "h1": ["Botón de", "arrepentimiento"],
+        "bg":"void-bnr",
+        "p": "",
+        "bigtext":true
+    }
+}

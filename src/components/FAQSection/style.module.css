@@ -1,0 +1,112 @@
+.container {
+  margin-bottom: 7px;
+}
+.containerOpen {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #ffffff;
+  color: #ede9fe;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #a71e69; 
+  border-bottom-color: #ffffff;
+}
+
+.containerHeader {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #ffffff;
+  color: #ede9fe;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-top-color: #a71e69;
+  border-left-color: #a71e69;
+  border-right-color: #a71e69;
+  border-bottom-color: #a71e69;
+}
+
+.chevronrotate {
+  align-self: center;
+  transform: rotate(180deg);
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+.conatinerChevron {
+  align-self: center;
+  color: #ede9fe;
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+.link{
+  font-size:1rem;
+}
+.containerPanel {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  color: #ede9fe;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-bottom-color: #a71e69;
+  border-left-color: #a71e69;
+  border-right-color: #a71e69;
+}
+
+.animtationEnter {
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+.animtationEnterFrom {
+  --transform-scale-x: 0.95;
+  --transform-scale-y: 0.95;
+  opacity: 0;
+}
+.animationEnterTo {
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  opacity: 1;
+}
+.animationLeave {
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.animationLeaveFrom {
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  opacity: 1;
+}
+
+
+.animationLeaveTo {
+  --transform-scale-x: 0.95;
+  --transform-scale-y: 0.95;
+  opacity: 0;
+}

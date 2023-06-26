@@ -1,0 +1,58 @@
+.button {
+  font-size: 1.5rem;
+  color: white;
+  display: block;
+  padding: 1rem 3rem;
+  margin: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--primary);
+  transition: 200ms;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: white;
+  color: var(--primary);
+}
+.buttonText {
+  transition: 200ms;
+}
+
+.bannerChevron {
+  position: absolute;
+  top: 0;
+  height: 450px;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  z-index: 200;
+  animation: advance var(--a-long) forwards var(--custom-curve);
+}
+
+.bannerSpacer {
+  width: 1em;
+  animation: descend var(--a-short) forwards ease-out;
+  visibility: hidden;
+}
+
+
+@media (max-width: 900px) {
+  .bannerChevron {
+    height: 28.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .bannerChevron {
+    height: 29.2rem;
+  }
+}
+
+@keyframes advance {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 50%;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "banner": {
+    "name": "scam",
+    "icons":true,
+    "home": true,
+    "variant": "home",
+    "bg": "home-bnr",
+    "h1": ["<span id='extrabold'>INFORMACIÓN IMPORTANTE<span>"],
+    "p": {
+      "parseThis": "<p>Un empleado de <strong>HEY Créditos</strong> nunca te va a solicitar que realices <strong>transferencias en efectivo</strong> o <strong>te descargues alguna aplicación para poder otorgarte un préstamo</p>"
+    },
+    "h2": [
+      "Estos son los únicos perfiles oficiales de  <strong>HEY Créditos</strong>"
+    ],
+    "cuentas:": ["@heycreditos", "/HeyCreditosArg", "heycreditos.com.ar"],
+    "li": [
+      "<strong>@heycreditos</strong>",
+      "<strong>/HeyCreditosArg</strong>",
+      "<strong>heycreditos.com.ar</strong>"
+    ],
+    "footer": "Si tenés dudas acerca de algún perfil, no dudes en contactarnos a nuestro mail oficial:",
+    "link": "<strong>info@heycreditos.com.ar</strong>"
+  }
+}

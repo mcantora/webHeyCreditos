@@ -1,0 +1,18 @@
+{
+    "banner": {
+        "variant":"default",
+        "h1": ["Estamos cerca.", "Vení a visitarnos"],
+        "bg":"offices-bnr"
+    },
+    "cba": {
+        "h2": "Córdoba",
+        "phone": "5493518575784",
+        "maps": "https://www.google.com/maps/place/Buenos+Aires+79,+X5022AAA+C%C3%B3rdoba/",
+        "address": "Buenos Aires 79",
+        "available": ["Horarios de atención:", "Lunes a Viernes de 8 a 17 hs.", "Sábados de 10 a 13 hs."],
+        "cta": "Contacto"
+    },
+    "ba": {
+        "address": ["Sarmiento 336, Piso 11\n", "CABA"]
+    }
+}

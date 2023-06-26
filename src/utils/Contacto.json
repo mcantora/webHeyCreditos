@@ -1,0 +1,11 @@
+{
+    "banner": {
+        "variant":"default",
+        "h1": ["Sí. Estamos para", "ayudarte"],
+        "p": {
+            "parseThis2":
+            "<p>Llamanos o escribinos desde todo el país,</br>de lunes a viernes de 8 a 20 hs.</p><p>Nuestro equipo de atención al cliente te responderá en forma inmediata.</p>"
+    },
+        "bg":"contact-bnr"
+    }
+}

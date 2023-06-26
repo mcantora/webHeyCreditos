@@ -1,0 +1,54 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link{
+  font-weight: bold;
+  color:#57277e !important;
+}
+
+.icon {
+  width: 10rem;
+  height: 10rem;
+}
+
+.wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 800px;
+  margin-top: 6em;
+  margin-bottom: 3em;
+  font-size: 2rem;
+  color:#e32385;
+}
+
+.gap{
+  height: 28vh;
+}
+
+@media (max-width: 500px) {
+  .icon {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media (max-width: 400px) {
+  .icon {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .icon {
+    width: 6rem;
+    height: 6rem;
+  }
+}

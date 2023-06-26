@@ -1,0 +1,74 @@
+
+.containerContact {
+  display:flex;
+  align-items:center;
+}
+.spacing { margin-left:1rem; }
+
+#hq {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-image: url('../../assets/sucursales/maps_light_cba.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+#office-margins {
+  margin-left: var(--m-1);
+  margin-top: 4rem;
+}
+
+#office-margins p {
+  font-size: 1.2rem;
+  line-height: 165%;
+  margin-bottom: 0;
+}
+
+#cta-margins {
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem;
+  margin-right: 0;
+}
+
+#primary-link:hover, #cta-margins:hover { color: var(--primary); }
+
+@media (max-width: 5000px) {
+  .office {
+      height: auto;
+      width: 30%;
+  }
+  .office-map {
+      height: auto;
+      width: 50%;
+      margin-right: var(--m-2);
+  }
+}
+@media (max-width: 1300px) {
+  .office-map {
+      height: auto;
+      width: 60%;
+      margin-right: var(--m-2);
+  }
+}
+
+@media (max-width: 900px) {
+  .office-map {
+      height: 40vh;
+      width: 85vw;
+      margin: 0;
+      margin-left: var(--m-1);
+  }
+  .office { 
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .office, #office-margins { margin-left: 0; }
+  #hq { margin-top: 0; }
+}
+
+@media (max-width: 600px) {
+  .office-map { width: 100vw; }
+  #hq { margin: 0; }
+}

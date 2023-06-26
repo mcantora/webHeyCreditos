@@ -1,0 +1,130 @@
+{
+  "cta1": "Quiero conocer mi oferta",
+  "cta2": "¡Quiero mi préstamo!",
+  "cta3": "¡Sí, quiero!",
+  "mobile": "Pedí acá tu préstamo",
+  "p": "Consultá tu oferta y empezá a soñar.",
+  "banner": {
+    "home": true,
+    "variant": "home",
+    "p0": "ESTÁS A UN CLICK DE HACERLO REALIDAD",
+    "h1": [
+      "<span id='extrabold'>Te prestamos</span>",
+      "hasta <span id='extrabold'>$750.000</span>"
+    ],
+    "bg": "home-bnr",
+    "li": [
+      "Sacalo ahora en<strong> pocos pasos</strong>",
+      "Mínimos <strong>requisitos</strong>",
+      "Pedilo <strong>desde el celu o la compu</strong>",
+      "Podés tener tu dinero <strong>en el día</strong>",
+      "<strong>Rápido y confiable</strong>"
+    ]
+  },
+
+  "intro": {
+    "h2": ["Brindamos préstamos", "on-line a tu medida"],
+    "p": "Porque queremos acompañarte con la mejor propuesta, es que creamos una plataforma digital, agil y sencilla para que puedas conocernos mejor, y juntos adaptarnos a tus necesidades.",
+    "h3": "Sólo necesitás:",
+    "ul-array": [
+      "Ser mayor de 18 años",
+      "Tener DNI vigente y en buen estado",
+      "Antigüedad laboral de 4 meses",
+      "Teléfono y mail de contacto"
+    ]
+  },
+
+  "reqs": {
+    "h2": [
+      "<span>¿Qué <strong>requisitos</strong> necesito&#160;</span>",
+      "<span>para solicitar el préstamo?</span></h2>"
+    ],
+    "row1": [
+      {
+        "title": "Documento",
+        "text": "Tener DNI argentino (DNI tarjeta)"
+      },
+      {
+        "title": "Cuenta",
+        "text": "Ser titular de una cuenta bancaria"
+      },
+      {
+        "title": "Contacto",
+        "text": "Tener un teléfono y mail de contacto habilitado"
+      }
+    ],
+    "row2": [
+      {
+        "title": "Edad",
+        "text": "Ser mayor de 18 años"
+      },
+      {
+        "title": "Ocupación",
+        "text": "Relación de dependencia con al menos 4 meses de antigüedad, jubilado o pensionado"
+      }
+    ],
+    "mobil": [
+      {
+        "title": "Documento",
+        "text": "Tener DNI argentino (DNI tarjeta)"
+      },
+      {
+        "title": "Cuenta",
+        "text": "Ser titular de una cuenta bancaria"
+      },
+      {
+        "title": "Contacto",
+        "text": "Tener un teléfono y mail de contacto habilitado"
+      },
+      {
+        "title": "Edad",
+        "text": "Ser mayor de 18 años"
+      },
+      {
+        "title": "Ocupación",
+        "text": "Relación de dependencia con al menos 4 meses de antigüedad, jubilado o pensionado"
+      }
+    ],
+    "cta": "¡Quiero mi préstamo!"
+  },
+  "steps": [
+    {
+      "strong": "1) Completá el formulario",
+      "regular": "Ingresá tus datos para que podamos analizarlos y darte una oferta."
+    },
+    {
+      "strong": "2) Confirmá el monto",
+      "regular": "Utilizá el simulador para decidir la cantidad de cuotas y el importe a pagar."
+    },
+    {
+      "strong": "¡Ya estás más cerca!"
+    },
+    {
+      "strong": "3) Aceptá los términos y condiciones",
+      "regular": "Con tan sólo un click vas a poder descargar y leer la información referente a tu préstamo."
+    },
+    {
+      "strong": "4) Validá tu identidad",
+      "regular": "Te vamos a pedir que tomes una selfie de tu rostro con movimiento y una imagen de tu DNI de frente y dorso. Es para seguridad de todos."
+    },
+    {
+      "strong": "¡Y recibí el dinero en tu cuenta!",
+      "regular": "Una vez que el otorgamiento del préstamo fue confirmado, el dinero se acreditará en tu cuenta, ¡podes usarlo como y cuando quieras!",
+      "strong2": "Ya es tuyo."
+    }
+  ],
+  "fees": {
+    "small": [
+      "Créditos por hasta $750.000 en hasta 24 cuotas mensuales. Otorgamiento sujeto al cumplimiento de requisitos, análisis crediticio, y condiciones financieras vigentes al momento del otorgamiento. Ejemplo de un crédito disponible al mes de septiembre de 2022: Monto $ 10.000,00 en 12 cuotas fijas de $1.513, TNA 135,00%, TEA 259,42% , CFTNA 135,00%.",
+      "La tasa nominal anual (TNA), la tasa efectiva anual (TEA) y el costo financiero total nominal anual (CFTNA) varían según el perfil crediticio del solicitante del préstamo y plazo de financiación elegido. En todos los casos las cuotas son fijas y la TNA, TEA y el CFT aplicable, serán informados al momento de la solicitud del préstamo y antes de su otorgamiento.",
+      "El monto mínimo de financiación es de $10.000 y el monto máximo de $750.000. El período mínimo para la devolución de un préstamo es de 6 meses, y el máximo es de 24 meses.",
+      "TNA: Mínimo 135,00% - Máximo 350,00%. TEA: Mínimo 259,42% - Máximo 2.056,78%."
+    ],
+    "big": ["<div>CFTNA con IVA:&nbsp;</div>", "<b>Mínimo 163,30%</b>", "<i>&nbsp;-&nbsp;</i>", "<b>Máximo 423,50%</b>", "<span>Mínimo 163,30% - Máximo 423,50%</span>"]
+  },
+
+  "claims": [
+    "Acreditación inmediata, segura y sin vueltas",
+    "¡Alcanzar tus sueños nunca fue tan fácil!"
+  ]
+}

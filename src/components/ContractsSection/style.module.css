@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-right: 4vw;
+    font-size: 1.5rem;
+    opacity: 75%;
+}
+
+#a, #a:visited, #a:active, #a:focus { 
+    max-width: fit-content;
+    margin: 2rem 0;
+    color: var(--grey-text);
+}
+
+#a:hover { color: var(--primary); }

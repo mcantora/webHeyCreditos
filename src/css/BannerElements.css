@@ -1,0 +1,348 @@
+.white-txt-banner {
+  color: white !important;
+}
+
+.text-home {
+  color: var(--primary);
+}
+/* GRADIENT BANNER */
+
+.banner {
+  position: relative;
+  height: 450px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.bannerStandar {
+  position: relative;
+  height: 320px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  overflow: visible;
+}
+.bannerSecondary {
+  position: relative;
+  height: 450px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  overflow: visible;
+}
+
+.home-bnr,
+.offices-bnr,
+.us-bnr,
+.contact-bnr,
+.undo-bnr,
+.void-bnr,
+.faq-bnr {
+  animation: show var(--a-short) forwards linear;
+}
+
+.overlay {
+  mix-blend-mode: overlay;
+}
+
+.banner-gradient {
+  position: absolute;
+  height: 450px;
+  width: 100vw;
+  background: linear-gradient(
+    270deg,
+    rgba(87, 39, 126, 0),
+    rgba(227, 35, 133 /*,  0.5371 */)
+  );
+  z-index: 100;
+  overflow: hidden;
+}
+.banner-secondary-gradient {
+  position: absolute;
+  height: 450px;
+  width: 100vw;
+  background: linear-gradient(
+    270deg,
+    rgba(87, 39, 126, 0),
+    rgba(227, 35, 133 /*,  0.5371 */)
+  );
+  z-index: 100;
+}
+.bannerStandar-gradient {
+  position: absolute;
+  height: 320px;
+  width: 100vw;
+  opacity: 0.8;
+  background: linear-gradient(
+    270deg,
+    rgba(87, 39, 126, 0),
+    #af82b4 30%,
+    #FD9BCD  );
+  z-index: 100;
+}
+
+/* 
+.opaque-gradient {
+  background: linear-gradient(270deg, rgba(87, 39, 126, 0),rgba(227, 35, 133));
+} */
+
+.white-gradient {
+  position: absolute;
+  height: 450px;
+  width: 90vw;
+  background: linear-gradient(
+    90.18deg,
+    #ffffff 58.89%,
+    rgba(196, 196, 196, 0) 86.23%
+  );
+  z-index: 50;
+}
+
+.banner-chevron {
+  position: absolute;
+  top: 0;
+  height: 450px;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  z-index: 200;
+  animation: advance var(--a-long) forwards var(--custom-curve);
+}
+.responsiveGap {
+  height: 7vh;
+}
+.responsiveGapStrong {
+  height: 4vh;
+}
+.banner-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  height: 440px;
+  margin-left: var(--m-1);
+  max-width: var(--max-width-banners);
+  z-index: 300;
+  animation: show var(--a-short) forwards linear;
+}
+.banner-text-secondary {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  height: 440px;
+  margin-left: var(--m-1);
+  max-width: var(--max-width-banners);
+  z-index: 300;
+  animation: show var(--a-short) forwards linear;
+}
+
+.banner-container-secondary {
+  height: 100%;
+  color: var(--primary);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  margin-left: var(--m-1);
+  max-width: var(--max-width-banners);
+  z-index: 300;
+  animation: show var(--a-short) forwards linear;
+}
+
+.banner-text *,
+.banner-container-secondary * {
+  max-width: 80vw;
+}
+.banner-text h1 {
+  font-weight: 500;
+}
+
+.banner-text li {
+  margin-right: 1.2rem;
+  color: var(--primary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.banner-spacer {
+  width: 1em;
+  animation: descend var(--a-short) forwards ease-out;
+  visibility: hidden;
+}
+
+/* ANIMATIONS */
+body {
+  --a-short: 1s;
+  --a-long: 2s;
+  --custom-curve: cubic-bezier(
+    0.25,
+    0.75,
+    0.5,
+    1
+  ); /* https://cubic-bezier.com/ */
+}
+
+@media (max-width: 5000px) {
+  .home-bnr {
+    background-image: url("../assets/home/homeBanner.webp");
+  }
+
+  .offices-bnr {
+    background-image: url("../assets/sucursales/cba0.webp");
+  }
+
+  .us-bnr {
+    background-image: url("../assets/nosotros/BANNER_nosotros.png");
+  }
+
+  .home-bnr2 {
+    background-image: url("../assets/home/scam.png");
+
+  }
+
+  .us-bnr {
+    background-image: url("../assets/nosotros/BANNER_nosotros.png");
+  }
+
+  .contact-bnr {
+    background-image: url("../assets/contacto/contacto.png");
+  }
+
+  .faq-bnr {
+    background-image: url("../assets/faq/faq.webp");
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: 40vw;
+    background-size: 70%;
+  }
+  /* Falta agregar las classes de 
+  IUSF (Información al usuario de servicios financieros) --> .iusf-bnr
+  Medios de pago --> .payment-bnr
+  Protección al consumidor --> .protect-bnr
+  y agregar en la prop bg de cada json
+  */
+}
+
+@media (max-width: 1300px) {
+  .banner .cta a {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .faq-bnr,
+  .contact-bnr,
+  .us-bnr,
+  .offices-bnr,
+  .home-bnr {
+    background-image: none;
+  }
+  .banner-chevron {
+    height: 0px;
+  }
+  .bannerStandar {
+    height: 300px;
+  }
+  .bannerStandar-gradient {
+    position: absolute;
+    height: 280px;
+    width: 100vw;
+    background: linear-gradient(270deg, #ffffff, #57277e);
+    z-index: 100;
+  }
+  .banner-container-secondary { color: #fff; }
+}
+
+@media (max-width: 600px) {
+  .banner-text {
+    top: -2.5em;
+    width: 340px;
+  }
+  .white-txt-banner *, .banner-container-secondary * { max-width: 70vw; }
+  .bannerSecondary {
+    position: relative;
+    height: 278px;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    overflow: visible;
+  }
+  .banner-text-secondary {
+    top: -2.5em;
+    width: 275px;
+    height: 350px;
+  }
+  .banner-text-secondary h1 {
+    font-size: 2.2rem;
+  }
+  .banner-text h1 {
+    font-weight: 500;
+    font-size: 2.6rem;
+  }
+
+  .banner-chevron {
+    height: 0px;
+  }
+  .white-gradient {
+    height: 350px;
+  }
+  .banner-secondary-gradient {
+    position: absolute;
+    height: 278px;
+    width: 100vw;
+    background: linear-gradient(270deg, rgba(87, 39, 126, 0) 0%, #a71e69 100%);
+    z-index: 100;
+  }
+  .banner-outline-gradient {
+    position: absolute;
+    height: 370px;
+    width: 100vw;
+    background: linear-gradient(270deg, rgba(87, 39, 126, 0) 0%, #a71e69 100%);
+    z-index: 100;
+  }
+  .banner-gradient {
+    height: 450px;
+  }
+  .bannerStandar {
+    height: 250px;
+  }
+  .bannerStandar-gradient {
+    height: 250px;
+  }
+ .text-home { top: unset; }
+}
+
+@keyframes advance {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 50%;
+  }
+}
+
+@keyframes descend {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 4rem;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

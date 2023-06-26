@@ -1,0 +1,9 @@
+{
+    "links": [
+    ["/", "Inicio"],
+    ["/nosotros", "Nosotros"],
+    ["/sucursales", "Sucursales"],
+    ["/contacto", "Contacto"]
+    ],
+    "redirect": ""
+}

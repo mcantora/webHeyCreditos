@@ -1,0 +1,31 @@
+{
+    "banner": {
+        "variant":"default",
+        "h1": ["Atención Usuarios", "de Servicios Financieros"],
+        "bg":"void-bnr",
+        "p":"",
+        "onlytitle":true
+    },
+
+    "p": [
+        "<p className=\"blue-txt\">Estimado Cliente, usted cuenta con los siguientes canales de contacto para efectuar consultas y reclamos sobre los servicios financieros que brinda OK CONSUMER FINANCE:</p>",
+        "<p className=\"white-txt\">Ante las consultas, reclamos y/o quejas por alguna de las vías mencionadas, la respuesta se notificará, como máximo, dentro de los <strong>10 (diez) días hábiles</strong> desde la fecha de iniciado el proceso.</p>",
+        "<p className=\"white-txt\">En caso de falta de respuesta y/o disconformidad con las resoluciones adoptadas por el Banco, usted podrá hacer las denuncias respectivas ante el Banco Central de la República Argentina.</p>"
+    ],
+
+    "officials-text": "<p>Los funcionarios designados ante el BCRA en calidad de responsables de Atención al Usuario de Servicios Financieros son:</p>",
+    
+    "officials": [
+        "<p><strong>Titular: Martín Miguel Pérez</strong></p>",
+        "<p><strong>Suplente: Jésica Natalia Grenón.</strong></p>"
+    ],
+    
+    "links": {
+        "h3": "<center><h3 className=\"primary-txt\">Links útiles</h3></center>",
+        "defensa_nacion": "https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario",
+        "defensa_caba": "https://www.buenosaires.gob.ar/tramites/denuncia-digital-defensa-al-consumidor",
+        "transp": "https://www.bcra.gob.ar/BCRAyVos/Regimen_de_transparencia.asp"
+    },
+
+    "imgs": ["normas1", "normas2", "normas3", "normas4", "normas5", "normas6"]
+}

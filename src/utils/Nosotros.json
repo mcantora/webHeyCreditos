@@ -1,0 +1,29 @@
+{
+    "banner": {
+        "variant":"default",
+        "h1": ["Somos la respuesta", "a lo que necesitás"],
+        "p": {
+            "parseThis": "<p>En <strong>HEY Créditos</strong> queremos ser el espacio donde diseñás tu futuro.</p>"
+        },
+        "bg":"us-bnr"
+    },
+
+    "body": {
+        "h2": "Somos HEY Créditos, la fintech de OK Consumer Finance S.A.",
+        "p": [
+            "Un equipo de profesionales especializados en finanzas.",
+            "Nos apasiona lo que hacemos y nos esforzamos en brindar el mejor servicio.",
+            "Formamos parte de un Grupo Económico Financiero Nacional, con el respaldo de 20 años de trayectoria y experiencia en el mercado.",
+            "Nos dedicamos a pensar, desarrollar y administrar productos para el sector.",
+            "Tenemos un objetivo claro: permitir a nuestros clientes ser parte del sistema financiero con ofertas de calidad."
+        ],
+        "mision": {
+            "h3": "Misión",
+            "p": "Ser el aliado, asistir e impulsar a quienes buscan estar mejor."
+        },
+        "vision": {
+            "h3": "Visión",
+            "p": "Transitar junto a nuestros clientes el proceso de transformación hacia un mundo más simple, ágil e inclusivo."
+        }
+    }
+}

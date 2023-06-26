@@ -1,0 +1,29 @@
+{
+    "links1": [
+        ["/", "Inicio"],
+        ["/nosotros", "Nosotros"],
+        ["/sucursales", "Sucursales"],
+        ["/contacto", "Contacto"],
+        ["/faq", "FAQs"]
+    ],
+    "links2": [
+        ["med", "/medios_pago", "_self", "Medios de pago"],
+        ["arr", "/arrepentimiento", "_self", "Botón de arrepentimiento"],
+        ["prot", "/proteccion", "_self", "Defensa de las y los consumidores"],
+        ["tran", "https://www.bcra.gob.ar/BCRAyVos/Regimen_de_transparencia.asp", "_blank", "Régimen de transparencia"]
+    ],
+
+    "links3": {
+        "bcra": "https://www.bcra.gob.ar/BCRAyVos/Usuarios_Financieros.asp",
+        "info": ["/informacion", "Información al usuario financiero"]
+    },
+    "urls": {
+        "fb": "https://www.facebook.com/HeyCreditosArg",
+        "ig": "https://www.instagram.com/heycreditos/"
+    },
+    "white": [
+        "<span>OK CONSUMER FINANCE S.A., CUIT 30-71504498-2, Sarmiento 336, Piso 11, CABA. <br/>Inscripto en el Registro de Otros Proveedores no Financieros de Crédito del BCRA bajo el código N° 55129.</span>",
+        "<span>© Copyright 2022. Hey Créditos, todos los Derechos reservados.</span>"
+    ],
+    "version": "V 1.0.8"
+}

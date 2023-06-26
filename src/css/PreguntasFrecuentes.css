@@ -1,0 +1,113 @@
+@media (max-width: 5000px) {
+  .questions {
+    margin: 0 200px;
+    margin-top: 5.25rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .questions {
+    margin: 0 15vw;
+    margin-top: 5.25rem;
+  }
+}
+
+#toggle1,
+#toggle2,
+#toggle3,
+#toggle4,
+#toggle5,
+#toggle6 {
+  margin-left: 3rem;
+  min-width: 1rem;
+  max-height: 4rem;
+  align-self: center;
+
+}
+
+#answer1,
+#answer2,
+#answer3,
+#answer4,
+#answer5,
+#answer6,
+#answer7 {
+  height: 0;
+  transition: 400ms;
+}
+
+.question {
+  border: 1px solid #a71e69;
+  box-sizing: border-box;
+  transition: 400ms;
+  margin-bottom: 7px;
+}
+
+.question * {
+  /* SCROLLBAR BUG FIX */
+  overflow: hidden !important;
+}
+
+.q-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.q-title {
+  font-size: 1.75rem;
+  margin: 0.9rem 0.9rem 0.9rem 0; /* top right bottom left */
+  color: #343c44;
+}
+
+.q-margins {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.q-toggle {
+  cursor: pointer;
+}
+
+/* Colorear piquito de desplegar pregunta (o cualquier vector) al hacer hover, con color primario. */
+/* Sacado de: https://codepen.io/sosuke/pen/Pjoqqp */
+.q-toggle:hover {
+  filter: invert(17%) sepia(65%) saturate(1957%) hue-rotate(254deg)
+    brightness(94%) contrast(96%);
+}
+
+#toggle1[expand="open"],
+#toggle2[expand="open"],
+#toggle3[expand="open"],
+#toggle4[expand="open"],
+#toggle5[expand="open"],
+#toggle6[expand="open"] {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 900px) {
+  #toggle1,
+  #toggle2,
+  #toggle3,
+  #toggle4,
+  #toggle5,
+  #toggle6 {
+    width: 2.5rem;
+  }
+  .container-text {
+    width: 80vw;
+  }
+}
+
+.answer-div p {
+  margin-top: 0;
+  line-height: 165%;
+}
+
+#faq-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

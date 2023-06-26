@@ -1,0 +1,57 @@
+.container {
+  position: fixed;
+  align-items: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: 1s ease;
+  z-index: 4;
+  box-shadow: 0 0 2rem var(--grey-text);
+}
+
+.containerLink {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerSlider {
+  background-color: white;
+  z-index: 4;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  box-shadow: inset 0 0 2rem var(--grey-text);
+}
+.enter {
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.enterFrom {
+  transform: translate(100vw);
+}
+.enterTo {
+  transform: translate(0vw);
+}
+.leave {
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.leaveFrom {
+  transform: translate(0vw);
+}
+.leaveTo {
+  transform: translate(100vw);
+}
+.header-gap {
+  position: relative;
+  display: flex;
+  height: var(--header-height);
+}
+@media (max-width: 1050px) {
+
+}

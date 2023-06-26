@@ -1,0 +1,20 @@
+{
+  "banner": {
+    "legales":true,
+    "variant":"legales",
+    "h1": "Para poder realizar tu prestamos Hey, tenés que acceder desde un celular o tablet.",
+    "bg": "void-bnr",
+    "p": "",
+    "onlytitle": true,
+    "small": true,
+    "bigtext":true
+  },
+
+  "title": "<h3 className=\"primary-txt\">Links útiles</h3>",
+
+  "links": [
+    {
+      "title": "Por favor ingrese desde un dispositivo mobil."
+    }
+  ]
+}

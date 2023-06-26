@@ -1,0 +1,25 @@
+.link, .link:hover, .link:focus {
+  cursor: pointer;
+  word-break: break-all;
+  text-align: start;
+  overflow-x: visible;
+  text-decoration: solid underline;
+  inline-size: 200vw;
+  font-size:1.25rem;
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-right: 4vw;
+  opacity: 75%;
+  font-size:1.25rem;
+  color:var(--grey-text);
+}
+.section { letter-spacing: 1px; }
+.link:hover{
+  color:var(--primary);
+}

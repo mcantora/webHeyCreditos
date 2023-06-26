@@ -1,0 +1,29 @@
+{
+  "banner": {
+    "legales":true,
+    "variant":"legales",
+    "h1": "Defensa de las y los consumidores",
+    "bg": "void-bnr",
+    "p": "",
+    "onlytitle": true,
+    "small": true,
+    "bigtext":true
+  },
+
+  "title": "<h3 className=\"primary-txt\">Links útiles</h3>",
+
+  "links": [
+    {
+      "title": "Legislación Defensa del Consumidor: ",
+      "link": "https://www.argentina.gob.ar/justicia/derechofacil/leysimple/defensa-del-consumidor"
+    },
+    {
+      "title": "Para reclamos Ventanilla Única Federal - Defensa del Consumidor Nación ",
+      "link": "https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario"
+    },
+    {
+      "title": "Para reclamos Defensa del Consumidor CABA ",
+      "link": "https://www.buenosaires.gob.ar/tramites/denuncia-digital-defensa-al-consumidor"
+    }
+  ]
+}

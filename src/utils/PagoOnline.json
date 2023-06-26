@@ -1,0 +1,24 @@
+{
+
+  "vid": "Ver video",
+
+  "p": "Consultá tu oferta y empezá a soñar.",
+  "banner": {
+    "home": true,
+    "variant": "home",
+ 
+    "h1": [
+      "<span id='extrabold'>AHORA EN </span>",
+      "<span id='extrabold'>HEY CREDITOS</span>",
+      "<span id='extrabold'> PODES PAGAR</span>",
+      "<span id='extrabold'>TU CUOTA DE</span>",
+      "<span id='extrabold'>MANERA ONLINE</span>"
+     
+    ],
+    "bg": "home-bnr",
+    "li": [
+      "<strong><a href='https://drive.google.com/file/d/1gAMbK6EldA9KW7bCMAZT2RUvo09HJYzh/view?usp=share_link' target='_blank'>Hace click</strong> en el siguiente enlace </a>",
+      "<a href='https://drive.google.com/file/d/1gAMbK6EldA9KW7bCMAZT2RUvo09HJYzh/view?usp=share_link' target='_blank'>donde te enseñamos como podes </a>",
+      "<a href='https://drive.google.com/file/d/1gAMbK6EldA9KW7bCMAZT2RUvo09HJYzh/view?usp=share_link' target='_blank'>hacerlo </a>"
+    ]
+  }}

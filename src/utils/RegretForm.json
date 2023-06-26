@@ -1,0 +1,28 @@
+{
+  "formInputs": [
+    { "name": "name", "label": "Nombre y Apellido", "variant": "input" },
+    {
+      "name": "dni",
+      "label": "Número de documento",
+      "variant": "number",
+      "format": "########",
+      "placeholder": "Ej: 23456789"
+    },
+    {
+      "name": "phone",
+      "label": "N° de Teléfono",
+      "variant": "number",
+      "format": "################",
+      "placeholder": "Ej: +549 1155667788"
+    }, 
+    {
+      "name": "loand_id",
+      "label": "N° de referencia",
+      "variant": "number",
+      "format": "########",
+      "placeholder": "Ej: 65824525",
+      "help":"Revise el email de aceptación de su préstamo. Es un número de 8 dígitos que comienza con 6."
+    }, 
+    { "name": "message", "placeholder": "Consulta", "variant": "textarea" }
+  ]
+}
