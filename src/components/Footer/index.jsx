@@ -1,9 +1,9 @@
 /* BIBLIOTECAS */
 import React from "react";
 import parse from "html-react-parser";
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom"; */
 /* ASSETS */
-import bcra from "../../assets/footer/bcra.webp";
+import bcra from "../../assets/footer/bcra.png";
 /* import f from '../assets/footer/facebook.svg'; */
 import ig from "../../assets/footer/instagram.svg";
 import fb from "../../assets/footer/facebook.svg";

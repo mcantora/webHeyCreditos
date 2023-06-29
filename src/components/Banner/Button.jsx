@@ -7,7 +7,6 @@ export default function Button({ styles, cta, redirect, mobile }) {
   if (cta)
     return (
       <>
-
           <a
             className={styles.linkButtonMobile}
             href={"https://heycreditos.com.ar/getiframeURL.php"}
@@ -15,7 +14,6 @@ export default function Button({ styles, cta, redirect, mobile }) {
           >
             {mobile}
           </a>
-    
 
           {canRedirect ? (
             <a
@@ -27,8 +25,7 @@ export default function Button({ styles, cta, redirect, mobile }) {
             </a>
           ) : (
             <Link to={'/block'} className={styles.linkButton}> {mobile}</Link>
-          )}
-       
+          )}      
       </>
     );
   else return <></>;

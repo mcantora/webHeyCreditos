@@ -9,11 +9,11 @@
 }
 .icon-menu { margin:0 8vw 0 8vw; }
 
-#header-logo { margin-left: var(--m-1); }
 #header-logo img {
     width: 10rem; /* alt: 8rem */
     height: 6rem; /* alt: 4.5rem */
 }
+
 
 /* RESPONSIVENESS IN HEADER */
 @media (max-width: 5000px) {

@@ -10,7 +10,7 @@
   position: relative;
   top: -34px;
   width: 10em;
-
+  border: 1px solid var(--primary);
   cursor: pointer;
   background-color: var(--primary);
   transition: 200ms;
@@ -33,7 +33,7 @@
   display: flex;
   flex-direction: row;
   justify-content: start;
-  align-items: center;
+  align-items: center;;
 }
 
 .footer {
@@ -47,9 +47,6 @@
 }
 
 .mobileP { visibility: hidden; }
-
-
-
 
 .imgGirlMobile { visibility: hidden; }
 
@@ -84,14 +81,13 @@
   visibility: hidden;
 }
 .bannerChevronMobil { visibility: hidden; }
-.pagoOnlineDiv{
-margin-top: 2vh;
 
+.pagoOnlineDiv{
+  margin-top: 2vh;
 }
 
 
-
-
+/********************  MEDIA QUERY ********************/
 
 @media (max-width: 1300px) {
   .homeUl { margin: 1rem 0;}
@@ -101,6 +97,9 @@ margin-top: 2vh;
   .imgGirl { visibility: visible; }
   .imgMoney { visibility: hidden; }
   .btnCuotaMobile{ color:var(--blue-text)}
+  .img {
+    filter: drop-shadow(0 0 2px white);
+  }
 }
 .bannerChevronMobilSecondary{
   visibility: hidden;
@@ -118,7 +117,7 @@ margin-top: 2vh;
     z-index: 300;
   }
   .pagoOnlineDiv{
-   margin-top: 0;
+  margin-top: 0;
 
   }
 }

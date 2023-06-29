@@ -2,6 +2,8 @@
   width: 5rem;
 }
 
+/********************  MEDIA QUERY ********************/
+
 @media (max-width: 400px) {
   .img {
     width: 4.2rem;

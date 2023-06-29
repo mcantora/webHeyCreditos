@@ -23,6 +23,7 @@
 }
 
 
+/********************  MEDIA QUERY ********************/
 
 @media (max-width: 900px) {
   .imgGirl { visibility: visible; }
@@ -45,12 +46,11 @@
   
     }
     .scamStyle{
-     height: 75%;
+      height: 75%;
     }
     .pagoStyle{
       height: 60%;
       margin-bottom: 85px;
-   
     }
 }
 
@@ -86,8 +86,6 @@
   }
 }
 
-
-
 @media (max-width: 375px) {
   
   .scamStyle{
@@ -98,8 +96,8 @@
     height: 50%
   }
   .pagoStyle{
-   height: 35%;
-   margin-right: -30px;
+    height: 35%;
+    margin-right: -30px;
   }
 
 }
@@ -108,5 +106,3 @@
     0% { left: 0%; }
     100% { left: 50%; }
 }
-  
-  

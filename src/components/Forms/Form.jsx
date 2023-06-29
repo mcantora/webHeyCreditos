@@ -1,7 +1,7 @@
 import NumberFormat from "react-number-format";
 import { Transition } from "@headlessui/react";
 import question from "../../assets/arrepentimiento/question-icon.svg";
-import { useEffect, useState } from "react";
+/* import { useEffect, useState } from "react"; */
 
 export default function Form({
   formInputs,
@@ -60,19 +60,20 @@ export default function Form({
             ),
             number: (
               <>
-                <span className="flex row between">
+                <span className="flex row end">                
                   <div className="flex row">
                     <span style={{ marginRight: "10px" }}>{label}</span>
-                    {help && (
+                    
+                  </div>
+                  <i className="secondary-txt align-r marg_r">
+                    {errors[name] && touched[name] && errors[name]}
+                  </i>
+                  {help && (
                       <div className="flex row question-container">
                         <div className="question-tooltip">{help}</div>
                         <img className="question-mark" src={question} alt="?" />
                       </div>
                     )}
-                  </div>
-                  <i className="secondary-txt align-r">
-                    {errors[name] && touched[name] && errors[name]}
-                  </i>
                 </span>
                 <NumberFormat
                   name={name}
@@ -87,9 +88,15 @@ export default function Form({
             ),
             select: (
               <>
-                <i className="secondary-txt align-r">
+                <span className="flex row between">
+                  <div className="flex row">
+                  <span style={{ marginRight: "10px" }}>{label}</span>
+                  </div>
+                  <i className="secondary-txt align-r">
                     {errors[name] && touched[name] && errors[name]}
                   </i>
+                    
+                </span>
                 <select
                   onChange={handleChange}
                   onBlur={handleBlur}
@@ -103,6 +110,7 @@ export default function Form({
                       value={option.value}
                       label={option.labelOption}
                       hidden={option.hidden}
+                      className="option-content"
                     />
                   ))}
                 </select>
@@ -151,6 +159,11 @@ export default function Form({
             ),
             textarea: (
               <>
+                <span className="flex row between">
+                  <div className="flex row">
+                    <span style={{ margin: "10px" }}>{label}</span>
+                  </div>
+                </span>
                 <textarea
                   placeholder={placeholder}
                   name={name}

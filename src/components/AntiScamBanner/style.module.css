@@ -65,6 +65,9 @@
 }
 .bannerChevronMobil { visibility: hidden; }
 
+
+/********************  MEDIA QUERY ********************/
+
 @media (max-width: 1300px) {
   .homeUl { margin: 1rem 0;}
 }

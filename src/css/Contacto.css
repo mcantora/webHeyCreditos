@@ -1,3 +1,5 @@
+
+
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: var(--primary);
@@ -21,10 +23,11 @@ label,
 .contact-form select,
 .contact-form option,
 .contact-form textarea {
+  appearance: none;
   -webkit-appearance: none; /* Quitar flechitas en Chrome */
   -moz-appearance: textfield;
   outline: none;
-  color: var(--grey-text) !important;
+  color: var(--grey-text);
   background-color: none !important;
   margin: 0;
   width: 30rem;
@@ -60,6 +63,10 @@ label,
   margin-bottom: 26px;
 }
 
+.contact-form select {
+  color: #57277e75 !important;
+}
+
 .contact-form span {
   color: white;
   margin-bottom: 0.25rem;
@@ -91,6 +98,7 @@ label,
   background: white;
   border: 1px solid #939ea4;
   box-sizing: border-box;
+  color: var(--secondary)!important;
   font-family: var(--fonts);
   font-style: normal;
   font-weight: normal;
@@ -106,6 +114,7 @@ label,
 input[type="file"] {
   display: none;
 }
+
 .custom-fileinput {
   background: #fffefe;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -163,6 +172,21 @@ input[type="file"] {
   visibility: visible;
   opacity: 1;
 }
+
+.hov:hover {
+  color: var(--primary);
+}
+
+.hov2 svg:hover {
+  cursor: pointer;
+  filter: hue-rotate(40deg) brightness(160%);
+}
+
+.marg_r {
+  text-align: right;
+  margin-right: 15px;
+}
+
 
 @media (max-width: 450px) {
   .col1-contacto,

@@ -11,7 +11,7 @@ import IconLogo from "../Icons/logo";
 import styles from "./style.module.css";
 import { Transition } from "@headlessui/react";
 import PaidOutlinedIcon from "@mui/icons-material/PaidOutlined";
-import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
+/* import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined'; */
 import HeaderBtn from "../Buttons/HeaderBtn";
 import PrestamoBtn from "../Buttons/PrestamoBtn";
 export default function Header() {
@@ -51,7 +51,7 @@ export default function Header() {
   return (
     <div className={styles.container} style={styleContainer}>
       {!show ? (
-        <Link id="header-logo" to="/" style={{ display: "flex", minWidth: "8%" }}>
+        <Link className={styles.header_logo} id="header-logo" to="/" style={{ display: "flex", minWidth: "8%" }}>
           <IconLogo size="6rem" />
         </Link>
       ) : (

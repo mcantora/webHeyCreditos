@@ -91,56 +91,66 @@ export default function Contact({ formInputs }) {
 			{!summited && (
 				<div className="section-margins col1-contacto hide1">
 					<h3 className="primary-txt">Comunicate con nosotros</h3>
-					<div className="flex row col1-text">
-						<PhoneIcon width="5rem" />
+					<div className="flex row col1-text hov2">
+						<div className={styles.icon_png}>
+							<PhoneIcon width="4.3rem" />
+						</div>						
 						<div style={{ width: "1rem" }} />
 						<div>
 							a través de nuestro teléfono: <br />
-							<a href={contact.linea_tel} target="_blank" rel="noreferrer">
-								<strong>{contact.linea_txt}</strong>
+							<a className="hov" href={contact.linea_tel} target="_blank" rel="noreferrer">
+								<strong className="hov">{contact.linea_txt}</strong>
 							</a>
 						</div>
 					</div>
-					<div className="flex row col1-text">
-						<EmailIcon width="5rem" />
+					<div className="flex row col1-text hov2">
+						<div className={styles.icon_png}>
+							<EmailIcon width="4.3rem" />
+						</div>
 						<div style={{ width: "1rem" }} />
 						<div>
 							por email a <br />
-							<a href={contact.email_mailto}>
+							<a className="hov" href={contact.email_mailto}>
 								<strong>{contact.email_txt}</strong>
 							</a>
 						</div>
 					</div>
-					<div className="flex row col1-text">
-						<WspIcon size="5rem" />
+					<div className="flex row col1-text hov2">
+						<div className={styles.icon_svg}>
+							<WspIcon size="4rem" />
+						</div>						
 						<div style={{ width: "1rem" }} />
 						<div>
 							por WhatsApp: <br />
-							<a href={contact.wsp_ba_href1} target="_blank" rel="noreferrer">
+							<a className="hov" href={contact.wsp_ba_href1} target="_blank" rel="noreferrer">
 								<strong>+{contact.wsp_ba_txt1}</strong>
 							</a>
 							<br />
-							<a href={contact.wsp_ba_href2} target="_blank" rel="noreferrer">
+							<a className="hov" href={contact.wsp_ba_href2} target="_blank" rel="noreferrer">
 								<strong>+{contact.wsp_ba_txt2}</strong>
 							</a>
 						</div>
 					</div>
-					<div className="flex row col1-text">
-						<IgIcon size="5rem" />
+					<div className="flex row col1-text hov2">
+						<div className={styles.icon_svg}>
+							<IgIcon size="3.9rem" />
+						</div>	
 						<div style={{ width: "1rem" }} />
 						<div>
 							Seguinos en Instagram: <br />
-							<a href={contact.ig_href} target="_blank" rel="noreferrer">
+							<a className="hov" href={contact.ig_href} target="_blank" rel="noreferrer">
 								<strong>{contact.ig_txt}</strong>
 							</a>
 						</div>
 					</div>
-					<div className="flex row col1-text">
-						<FbIcon size="5rem" />
+					<div className="flex row col1-text hov2">
+						<div className={styles.icon_svg2}>
+							<FbIcon size="4.2rem" />
+						</div>
 						<div style={{ width: "1rem" }} />
 						<div>
 							también en Facebook: <br />
-							<a href={contact.fb_href} target="_blank" rel="noreferrer">
+							<a className="hov" href={contact.fb_href} target="_blank" rel="noreferrer">
 								<strong>{contact.fb_txt}</strong>
 							</a>
 						</div>

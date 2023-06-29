@@ -61,6 +61,10 @@
 #preSteps {
   display: none;
 }
+
+
+/********************  MEDIA QUERY ********************/
+
 @media (max-width: 1300px) {
   .money {
     width: 30rem;

@@ -33,7 +33,7 @@ export default function Banner({
   scam,
   pago,
   abrirModal,
-  cerrarModal
+  /* cerrarModal */
 }) {
   const { variant, gradient, bg, legales, bigtext, name } = content;
   //Bg settings
@@ -137,7 +137,7 @@ export default function Banner({
         {/* boton pedi tu prestamo */}
         {mobile && <Button styles={styles} cta={cta} redirect={redirect} mobile={mobile} />} 
         {/* boton ver video */}
-         {vid && <VideoBtn  styles={styles} vid={vid}  abrirModal={abrirModal} />}   
+        {vid && <VideoBtn  styles={styles} vid={vid}  abrirModal={abrirModal} />}   
        {/* {vid &&  <button onClick={abrirModal}>Abrir Modal</button>} */}
 
         {/* Scam banner */}

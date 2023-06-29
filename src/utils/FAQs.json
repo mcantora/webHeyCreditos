@@ -53,10 +53,14 @@
             "id": "5",
             "title": "¿Dónde puedo abonar las cuotas?",
             "answer-array": [
-                "El préstamo lo podés pagar de diferentes formas:",
-                "-Por depósito o transferencia bancaria en las cuentas de OK CONSUMER FINANCE S.A."
+                "El préstamo lo podés pagar de diferentes formas:"
             ],
             "links": [
+                {
+                    "regular": "-Con tarjeta de débito desde nuestra web o ingresando a ",
+                    "bold":"Pagos en Línea",
+                    "href": "https://pagosenlinea.pagofacil.com.ar/"
+                },
                 {
                     "regular": "-En sucursales ",
                     "bold":"Pago Fácil",

@@ -36,6 +36,8 @@
 }
 
 
+/********************  MEDIA QUERY ********************/
+
 @media (max-width: 900px) {
   .bannerChevron {
     height: 28.5rem;

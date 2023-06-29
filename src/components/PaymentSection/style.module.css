@@ -1,6 +1,9 @@
 .img {
   width: 40vw;
 }
+
+/********************  MEDIA QUERY ********************/
+
 @media (max-width: 900px) {
   .img {
     width: 80vw;

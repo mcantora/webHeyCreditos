@@ -9,7 +9,7 @@
 .container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-contemarg_rnt: space-between;
 }
 .submit:hover {
 	color: blueviolet;
@@ -36,10 +36,25 @@
 .animationLeaveTo {
 	opacity: 0;
 }
+
+.icon_png {
+	margin: 0 6px;
+}
+
+.icon_svg {
+  padding: 0 7px;
+}
+.icon_svg2 {
+  padding: 0 5px;
+}
+
+.padd {
+	padding: 0.7rem;
+}
 .BtnEnviar {
 	color: white !important;
 }
 
 .BtnEnviar:hover {
-	color: black !important;
+	color: var(--primary) !important;
 }

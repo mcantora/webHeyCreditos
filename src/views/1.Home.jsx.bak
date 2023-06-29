@@ -51,17 +51,6 @@ function Home() {
     >
       <div>
         <Banner
-          content={pago.banner}
-          vid={pago.vid}
-          img={pagoOnline}
-          bgFloat={bgScam}
-          pago={pagoOnline}
-          abrirModal={abrirModal} 
-          cerrarModal={cerrarModal}
-        />
-      </div>
-         <div>
-        <Banner
           content={scam.banner}
           icons={IconsScam}
           img={scamImage}
@@ -85,8 +74,18 @@ function Home() {
           cerrarModal={cerrarModal}
         />
       </div>
-   
-   
+  
+      <div>
+        <Banner
+          content={pago.banner}
+          vid={pago.vid}
+          img={pagoOnline}
+          bgFloat={bgScam}
+          pago={pagoOnline}
+          abrirModal={abrirModal} 
+          cerrarModal={cerrarModal}
+        />
+      </div>
     </Carousel>
   );
   return (

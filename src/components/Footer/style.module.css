@@ -43,6 +43,19 @@
   .li:hover{
     color:#57277E;
   }
+
+  .last_ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bcra:hover {
+    opacity: 0.7;
+  }
+
+
+/********************  MEDIA QUERY ********************/
+
   @media (max-width: 500px) {
     .icon {
       width: 6rem;

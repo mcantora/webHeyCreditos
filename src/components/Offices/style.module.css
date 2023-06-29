@@ -1,7 +1,7 @@
 
 .containerContact {
   display:flex;
-  align-items:center;
+  align-items:end;
 }
 .spacing { margin-left:1rem; }
 
@@ -25,12 +25,18 @@
 }
 
 #cta-margins {
+  width: 90%;
   margin-top: 2.5rem;
   margin-bottom: 3.5rem;
   margin-right: 0;
 }
 
-#primary-link:hover, #cta-margins:hover { color: var(--primary); }
+#primary-link:hover, 
+#cta-margins:hover { 
+  color: var(--primary); 
+}
+
+/********************  MEDIA QUERY ********************/
 
 @media (max-width: 5000px) {
   .office {

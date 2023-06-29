@@ -46,7 +46,7 @@ export default function Offices({ contents }) {
           </button>
         </div>
       </div> { /* eslint-disable-next-line jsx-a11y/anchor-has-content */ }
-      <a id={styles.hq} className={styles['office-map']} href={contents.maps} target="__blank" rel="noreferrer"/>
+      <a  id={styles.hq} className={styles['office-map']} href={contents.maps} target="__blank" rel="noreferrer"/>
     </div>
   );
 }

@@ -8,10 +8,10 @@
     margin-top: 0.2vh;
     transition: 400ms;
     margin-left: 1rem;
-    background-color: #c09edb;
-    color: white;
-    border: 1px solid #c09edb;
+    color: #57277e;
+    border: 1px solid #57277e;
     width: max-content;
+    background-color: white;
   }
   .cta a,
   .cta span {
@@ -27,9 +27,8 @@
   }
   
   .cta:hover { 
-    background-color: white;
-    color: var(--primary);
-    border:1px solid var(--primary)
+    background-color: #d2d2d2;
+    color: #57277e;
   }
   .cta:disabled span,
   .primary-bg:disabled span,
@@ -52,16 +51,15 @@
     font-size: 2.2rem;
     border-radius: 0.25rem;
     line-height: 3rem;
-    background-color: #c09edb;
-    border: 1px solid #c8b1db;
+    background-color:#c8b1db;
     color:white
 }
 .mobileHeaderBtn:hover{
-  color:var(--primary);
-  border:1px solid var(--primary);
-  background-color: white;
-}
+    background-color:#fc7eeb46;
 
+}
+  
+  
 /*  "t1 cta primary-bg"  boton prestamo*/
 
 .prestamoBtn{
@@ -71,8 +69,8 @@
     font-size: 1rem;
     line-height: 165%;
     border-radius: 2px;
+    border: 1px solid #57277e;
     background-color: var(--primary);
-    border:1px solid var(--primary);
     transition: 400ms;
     min-width: 114px;
 }
@@ -85,7 +83,7 @@
 }
 .prestamoBtn:hover { 
     background-color: white;
-    color: var(--primary);
+    color: #57277e;
   }
   
   .prestamoBtn:disabled span,
@@ -105,8 +103,6 @@
 }
 
 
-/********************  MEDIA QUERY ********************/
-
   @media (max-width: 900px) {
     .cta a,
     .cta span {
@@ -122,7 +118,7 @@
   @media (max-width: 1000px) {
     .cta a,
     .cta span {
-      color: white;
+      
       display:flex;
 
       margin: 0;

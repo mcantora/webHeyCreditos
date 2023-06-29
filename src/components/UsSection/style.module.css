@@ -19,6 +19,9 @@
   line-height: 125%;
 }
 
+
+/********************  MEDIA QUERY ********************/
+
 @media (max-width: 5000px) {
   #us-section { flex-direction: row; }
   #us-text { max-width: 37.5vw; }

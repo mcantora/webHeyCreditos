@@ -31,7 +31,7 @@ export default function FAQSection() {
                     </div>
                     <ChevronUpIcon
                       className={
-                        open ? styles.chevronrotate : styles.conatinerChevron
+                        open ? styles.conatinerChevron : styles.chevronrotate
                       }
                     />
                   </Disclosure.Button>

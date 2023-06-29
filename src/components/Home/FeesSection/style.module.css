@@ -13,6 +13,9 @@
 
 #huge-txt span { display: none; }
 
+
+/********************  MEDIA QUERY ********************/
+
 @media (max-width: 1300px) {
     #huge-txt { font-size: 3.6vw; }
 }
