@@ -28,14 +28,14 @@
   opacity: 24%;
 }
 .img {
+  width: 35rem;
   position: relative;
-  margin-top: -2rem;
+  margin-top: -10rem;
 }
 .text {
-  background-color: white;
+  background-color: #fdf9fb;
   color: #57277e;
   font-weight: 500;
-  margin-top: -2.5rem;
   font-size: 1.2rem;
   text-align: center;
   max-width: 80vw;
@@ -69,7 +69,7 @@
   .money {
     width: 30rem;
   }
-  .img { margin-top: -8rem; }
+  .img { margin-top: -10rem; }
 }
 
 @media (max-width: 900px) {

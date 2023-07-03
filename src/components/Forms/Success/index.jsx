@@ -3,7 +3,7 @@ import React from "react";
 /* ESTILOS */
 import "../../../css/Home.css";
 import "../../../css/BannerElements.css";
-import styles from "./style.module.css";
+/* import styles from "./style.module.css"; */
 import { Link } from "react-router-dom";
 
 export default function Success({ isSuccess}) {

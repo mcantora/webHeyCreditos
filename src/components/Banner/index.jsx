@@ -124,7 +124,7 @@ export default function Banner({
             <div className={styles.liContainer} >
             
               {icons?.length > 0 && (
-                <img src={icons[index]} className={styles.img} />
+                <img src={icons[index]} className={styles.img} alt="" />
               )}
               <li className={styles.bannerLi}>{parse(text)}</li>
             </div>
@@ -144,7 +144,7 @@ export default function Banner({
         {name === "scam" &&
           content?.cuentas?.map((text, index) => (
             <>
-              <img src={icons[index]} />
+              <img src={icons[index]} alt="" />
               <li className={(name = "scam" ? styles.bannerLi : null)}>
                 {parse(text)}
               </li>

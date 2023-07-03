@@ -2,14 +2,14 @@
 import React from "react";
 import parse from "html-react-parser";
 /* COMPONENTS */
-import Banner from "../components/Banner";
+/* import Banner from "../components/Banner"; */
 /* UTILS */
 import footer from "../utils/Footer.json";
-import block from "../utils/Block.json";
+/* import block from "../utils/Block.json"; */
 import IconLogo from "../components/Icons/logo";
 /* ESTILOS */
 import styles from "./Block.module.css";
-import Gradient from "../components/Banner/Gradient";
+/* import Gradient from "../components/Banner/Gradient"; */
 import { Link } from "react-router-dom";
 export default function Block() {
   return (

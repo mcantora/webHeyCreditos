@@ -142,7 +142,7 @@
 
 .banner-container-secondary {
   height: 100%;
-  color: var(--primary);
+  color: white;
   position: absolute;
   display: flex;
   flex-direction: column;

@@ -2,8 +2,8 @@ export default function Steps({ contents }) {
   const { steps } = contents;
   return (
     <div className="secondary-bg square flex center-x-1 steps">
-      {steps.map((step) => (
-        <div className="step">
+      {steps.map((step,i) => (
+        <div key={i} className="step">
           <b>
             <p className="p-fix">{step.strong}</p>
           </b>

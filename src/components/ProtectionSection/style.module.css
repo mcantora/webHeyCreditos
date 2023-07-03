@@ -1,9 +1,9 @@
-.link, .link:hover, .link:focus {
+.link {
+  color:var(--primary) !important;
   cursor: pointer;
   word-break: break-all;
   text-align: start;
   overflow-x: visible;
-  text-decoration: solid underline;
   inline-size: 200vw;
   font-size:1.25rem;
   font-weight: bold;
@@ -15,11 +15,11 @@
   margin-top: 10vh;
   margin-bottom: 10vh;
   margin-right: 4vw;
-  opacity: 75%;
   font-size:1.25rem;
   color:var(--grey-text);
 }
 .section { letter-spacing: 1px; }
 .link:hover{
   color:var(--primary);
+  opacity: .8;
 }

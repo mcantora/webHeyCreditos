@@ -3,7 +3,7 @@ import React from 'react';
 /* ASSETS */
 import WhatsAppSVG from '../../assets/whatsapp-white.svg';
 /* UTILS */
-import contact from '../../utils/CanalesContacto.json'
+/* import contact from '../../utils/CanalesContacto.json' */
 /* ESTILOS */
 import styles from './style.module.css';
 

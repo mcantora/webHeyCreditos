@@ -14,7 +14,7 @@ export default function ProtectionSection() {
         <div className={styles.section}>
           <p className={styles.title}>
             {element.title}
-            <a className={styles.link} href={element.link}>
+            <a className={styles.link} href={element.link} target="_blank" rel="noreferrer">
               ingrese aquí.
             </a>
           </p>

@@ -55,7 +55,7 @@ export default function Header() {
           <IconLogo size="6rem" />
         </Link>
       ) : (
-        <Link id="header-logo" to="/">
+        <Link className={styles.header_logo} id="header-logo" to="/" >
           <IconLogo primary={"#fff"} secondary="#fff" size={"5.5rem"} />
         </Link>
       )}

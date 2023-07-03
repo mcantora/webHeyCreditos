@@ -47,15 +47,15 @@ export default function ReqsSection({ contents, redirect }) {
       <h2 className="wrap center-text center-x-1" id={styles.forceCenter}>
         {contents.h2.map((h2) => parse(h2))}
       </h2>
-      <img alt="____________" src={divLine} />
-      <div
+      <img alt="Imágen" src={divLine} />
+      <div 
         className={styles.containerIcons}
         id={styles.rowMargins}
         style={{ justifyContent: "center" }}
       >
         <div className="flex wrap2 center-x-1 hiddenmobile">
           {contents.row1.map((row, i) => (
-            <div className="flex column" id={styles.forceCenter}>
+            <div key={i} className="flex column" id={styles.forceCenter}>
               {icons1[i]}
               <h3 className="primary-txt">
                 <b>{row.title}</b>
